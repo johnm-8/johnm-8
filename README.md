@@ -23,10 +23,3 @@ HTML · CSS · JavaScript · Node.js/Express · Jupyter Notebook
 GitHub Metrics card (cool logos & emblems)
 
 Uses lowlighter/metrics to render a fancy SVG card with achievements, languages, calendars, etc.
-
-Option A — Full features (recommended): GitHub Action
-
-Create a classic Personal Access Token (PAT) in GitHub → Settings → Developer settings → Personal access tokens (classic). For public data only, no extra scopes are needed; for private stats include repo. Save it as repo secret: METRICS_TOKEN.
-
-In this profile repo, add: .github/workflows/metrics.yml with the workflow below.
-

@@ -20,73 +20,13 @@ Toolbox
 
 HTML · CSS · JavaScript · Node.js/Express · Jupyter Notebook
 
-By the numbers (auto-updating cards)
+GitHub Metrics card (cool logos & emblems)
 
-You can remove these if you prefer a cleaner look.
+Uses lowlighter/metrics to render a fancy SVG card with achievements, languages, calendars, etc.
 
+Option A — Full features (recommended): GitHub Action
 
+Create a classic Personal Access Token (PAT) in GitHub → Settings → Developer settings → Personal access tokens (classic). For public data only, no extra scopes are needed; for private stats include repo. Save it as repo secret: METRICS_TOKEN.
 
-
-
-How to reach me
-
-DM me on LinkedIn or drop a comment on my latest YouTube video.
-
-Built with ☕ and keyboard smash.
-
-README.md (Repo Template)
-
-Paste this into each project’s README.md and tweak the details.
-
-Project Name
-
-Short 1–2 sentence elevator pitch.
-
-Live demo: Tech stack: HTML, CSS, JavaScript (and anything else)Status: MVP / WIP / Archived
-
-✨ Features
-
-What it does (bullet points)
-
-Why it’s cool/unique
-
-📸 Screenshots
-
-Put images in /assets (e.g., /assets/hero.png) and reference them here.
-
-
-
-🚀 Quick start
-
-# clone
-git clone https://github.com/johnm-8/<repo>.git
-cd <repo>
-
-# run (if applicable)
-npm install
-npm start
-
-🧠 How it works
-
-1–2 paragraphs or a simple diagram explaining the flow.
-
-🗺️ Roadmap
-
-
-
-🧪 Tests (optional)
-
-How to run tests if you add them.
-
-🙏 Acknowledgments
-
-Credits, inspirations, or resources.
-
-📝 License
-
-GPL-3.0 / MIT / other (match your repo)
-
-Polishing checklist (per repo)
-
-
+In this profile repo, add: .github/workflows/metrics.yml with the workflow below.
 

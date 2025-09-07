@@ -1,3 +1,5 @@
+#Currently working to fix this, to make my Github look nice :)
+
 What I’m exploring right now
 
 Building playful web apps with HTML/CSS/JS

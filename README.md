@@ -1,4 +1,4 @@
-#Currently working to fix this, to make my Github look nice :)
+##Currently working to fix this, to make my Github look nice :)##  
 
 What I’m exploring right now
 
